@@ -31,7 +31,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/kkrreddy94/DevSecOps_Project.git
+    git clone https://github.com/kbreddy95/DevSecOps_Project.git
     ```
     
 
@@ -198,7 +198,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/kkrreddy94/DevSecOps_Project.git'
+                git branch: 'main', url: 'https://github.com/kbreddy95/DevSecOps_Project.git'
             }
         }
         stage("Sonarqube Analysis") {
